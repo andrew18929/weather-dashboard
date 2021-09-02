@@ -7,3 +7,20 @@ h1 {
     flex: 1 0 auto;
 }
 
+#forecast container {
+    border: 1px solid #c2c3c5;
+    padding: 20px;
+    line-height: 40px;
+}
+
+#name-div {
+    font-size: 25px;
+	font-weight: 500;
+	padding-right: 5px;
+	float: left;
+	color: #343a40;
+}
+
+#todays-weather {
+	background-color: #eaebeb;
+}
