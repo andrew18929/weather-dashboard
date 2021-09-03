@@ -69,3 +69,20 @@ h1 {
     background-color: #8a8d91;
     border: 1px solid #343a40;
 }
+
+.history {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    margin-top: 15px;
+}
+
+.list-group-item:hover {
+    color: white;
+    background-color: #8a8d91;
+    cursor: pointer;
+}

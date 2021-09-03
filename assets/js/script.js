@@ -21,7 +21,7 @@ $(document).ready(function () {
 	// search history list
 	function listCity(text) {
 		var listCityName = $("<li>")
-			.addClass("list-group-item list-group-item-action") // add class
+			.addClass("list-group-item list-group-item-action py-2") // add class
 			.text(text); // add text
 		$(".history").append(listCityName); // merge and add to html
 	}
@@ -52,7 +52,6 @@ $(document).ready(function () {
 				var sec = data.dt;
 				var forecastDate = new Date(sec * 1000);
 				var dateStr = forecastDate.toLocaleDateString();
-				var dayStr = forecastDate.getUTCDay(); // weekday conversion
 				var weekday = new Array(7);
 				weekday[0] = "Sunday";
 				weekday[1] = "Monday";
@@ -61,7 +60,6 @@ $(document).ready(function () {
 				weekday[4] = "Thursday";
 				weekday[5] = "Friday";
 				weekday[6] = "Saturday";
-				var weekdayStr = weekday[dayStr];
 
 				var forecastUl = $("<div>", { id: "forecast-container" });// creating <div> element html container
 
