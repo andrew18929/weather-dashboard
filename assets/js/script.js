@@ -172,6 +172,12 @@ $(document).ready(function () {
 						});
 						fiveDayTemps.text("Temperature: " + data.list[i].main.temp + " °F"); //add text to card and concantanate for that day
 
+						var fiveDayWind = $("<p>", {
+							class: "card-body", //add class
+							id: "five-wind", //add id
+						});
+						fiveDayWind.text("Wind Speed: " + data.list[i].wind.speed + " MPH");
+
 						var fiveDayHumidity = $("<p>", { //create <p> element to store humidity
 							class: "card-body", //add class
 							id: "five-humid", //add id
@@ -183,6 +189,7 @@ $(document).ready(function () {
 							fiveDayDates,
 							fiveDayIconImg,
 							fiveDayTemps,
+							fiveDayWind,
 							fiveDayHumidity,
 						);
 

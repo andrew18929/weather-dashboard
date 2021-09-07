@@ -86,3 +86,11 @@ li {
     background-color: #8a8d91;
     cursor: pointer;
 }
+
+#five-temp,
+#five-wind,
+#five-humid {
+    font-weight: bold;
+    padding: 0%;
+    color: #0b78e6;
+}
