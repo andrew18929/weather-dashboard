@@ -57,8 +57,6 @@ h1 {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 #five-day-card {
@@ -83,6 +81,7 @@ li {
 
 .list-group-item:hover {
     color: white;
+    font-weight: bold;
     background-color: #8a8d91;
     cursor: pointer;
 }
