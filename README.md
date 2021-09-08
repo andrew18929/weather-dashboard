@@ -4,11 +4,11 @@
 Weather Dashboard is a website that utilizes the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather information for cities input by the user.
 
 ## Technologies Used
--HTML
--JavaScript
--CSS
--Bootstrap
--JQuery
+- HTML
+- JavaScript
+- CSS
+- Bootstrap
+- JQuery
 
 ## APIs Used
 [OpenWeather One Call API](https://openweathermap.org/api/one-call-api)
